@@ -7,7 +7,19 @@ export default {
 
 <template>
   <div>
-    ciao
+    <div class="logo"></div>
+    <ul>
+      <li>charaters</li>
+      <li>comics</li>
+      <li>movies</li>
+      <li>tv</li>
+      <li>games</li>
+      <li>collectibles</li>
+      <li>videos</li>
+      <li>fans</li>
+      <li>news</li>
+      <li>shop</li>
+    </ul>
   </div>
 </template>
 
