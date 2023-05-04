@@ -11,7 +11,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .root-2{
   display: flex;
   justify-content: center;

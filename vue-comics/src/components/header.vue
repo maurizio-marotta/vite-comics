@@ -27,7 +27,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
   .root{
     background-color: #FFFFFF;
     display: flex;
@@ -40,7 +40,7 @@ export default {
   }
 
 img{
-  width: 60px;
+  width: 50px;
 }
 
 ul{
