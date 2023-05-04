@@ -34,8 +34,7 @@ export default {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding: 0px 150px;
     margin-top: 30px;
   }
 

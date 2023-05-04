@@ -7,7 +7,7 @@ export default {
 
 <template>
   <div class="root-3">
-    <div class="barra-link">
+    <div class="barra-link ">
       <ul class="primo">
         <li><img src="../assets/img/buy-comics-digital-comics.png" alt="" width="42" height="42"> Digital comics</li>
         <li><img src="../assets/img/buy-comics-merchandise.png" alt=""> Dc merch</li>
@@ -16,16 +16,51 @@ export default {
         <li><img src="../assets/img/buy-dc-power-visa.svg" alt="">Dc power visa</li>
       </ul>
     </div>
-    <div class="barra-link-2">
-      <ul class="seconda">
-        <li>charaters</li>
-        <li>comics</li>
-        <li>movies</li>
-        <li>tv</li>
-        <li>games</li>
-        <li>collectibles</li>
-      </ul>
-    </div>
+    <div class="dc-logo">
+      <div class="barra-link-2 d-flex">
+        <ul class="seconda">
+          <li><strong>Dc comics</strong></li>
+          <li>charaters</li>
+          <li>comics</li>
+          <li>movies</li>
+          <li>tv</li>
+          <li>games</li>
+          <li>collectibles</li>
+        </ul>
+        <ul class="seconda">
+          <li><strong>Dc comics</strong></li>
+          <li>charaters</li>
+          <li>comics</li>
+          <li>movies</li>
+          <li>tv</li>
+          <li>games</li>
+          <li>collectibles</li>
+        </ul>
+        <ul class="seconda">
+          <li><strong>Dc comics</strong></li>
+          <li>charaters</li>
+          <li>comics</li>
+        </ul>
+      </div>
+      <div class="barra-link-2 d-flex">
+        <ul class="seconda">
+          <li><strong>Dc comics</strong></li>
+          <li>charaters</li>
+          <li>comics</li>
+        </ul>
+      </div>
+  </div>
+  <div class="sing-up d-flex">
+    <div class="log">sing-up now</div>
+    <ul>
+      <li>Follow use</li>
+      <li><img src="../assets/img/footer-facebook.png" alt=""></li>
+      <li><img src="../assets/img/footer-periscope.png" alt=""></li>
+      <li><img src="../assets/img/footer-pinterest.png" alt=""></li>
+      <li><img src="../assets/img/footer-twitter.png" alt=""></li>
+      <li><img src="../assets/img/footer-youtube.png" alt=""></li>
+    </ul>
+  </div>
   </div>
 </template>
 
@@ -34,9 +69,10 @@ export default {
     display: flex;
     flex-direction: column;
     background-image: url(../assets/img/footer-bg.jpg);
-    height: 60vh;
+    height: 69vh;
   }
   .barra-link{
+    padding: 0px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,11 +101,47 @@ ul.primo li:hover{
 ul.seconda{
   color: white;
 }
+ul.seconda li:first-child{
+  margin: 10px 0px;
+  color: white;
+}
+ul.seconda li{
+  color: rgba(255, 255, 255, 0.473);
+  list-style: none;
+  font-size: 14px;
+}
 .barra-link-2{
-  height: 100%;
   padding: 0 150px;
+}
+.dc-logo{
+  height: 100%;
   background-image: url(../assets/img/dc-logo-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+  margin-right: 50px;
 }
+
+.sing-up {
+  padding: 20px 150px;
+  background-color: #303030;
+  height: 80px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.log{
+  border: 1px solid #0282F9;
+  padding: 10px;
+}
+
+.sing-up ul{
+  display: flex;
+  list-style: none;
+}
+.sing-up ul li img{
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
 </style>
