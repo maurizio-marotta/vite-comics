@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="">
     <headerVue />
     <mainVue />
     <footerVue />
