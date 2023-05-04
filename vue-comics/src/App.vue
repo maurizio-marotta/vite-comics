@@ -1,16 +1,25 @@
-
 <script>
+import footerVue from './components/footer.vue'
+import headerVue from './components/header.vue'
+import mainVue from './components/main.vue'
+
+
 export default {
-  name: 'display'
+  name: 'App',
+  components: {
+    headerVue,
+    mainVue,
+    footerVue
+  }
 }
 </script>
 
 <template>
-  <div class="container">
-    <h1>ciao</h1>
-  </div>
+  <headerVue />
+  <mainVue />
+  <footerVue />
 </template>
 
-<style lang="">
-
+<style lang="scss">
+  
 </style>

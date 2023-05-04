@@ -1,13 +1,13 @@
 
 <script>
 export default {
-  name: 'header'
+  name: 'footer'
 }
 </script>
 
 <template>
   <div>
-    ciao
+    footer
   </div>
 </template>
 
