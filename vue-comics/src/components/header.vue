@@ -6,23 +6,63 @@ export default {
 </script>
 
 <template>
-  <div>
-    <div class="logo"></div>
-    <ul>
-      <li>charaters</li>
-      <li>comics</li>
-      <li>movies</li>
-      <li>tv</li>
-      <li>games</li>
-      <li>collectibles</li>
-      <li>videos</li>
-      <li>fans</li>
-      <li>news</li>
-      <li>shop</li>
-    </ul>
+  <div class="root">
+    <div class="logo">
+      <img src="../assets/img/dc-logo.png" alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li>charaters</li>
+        <li>comics</li>
+        <li>movies</li>
+        <li>tv</li>
+        <li>games</li>
+        <li>collectibles</li>
+        <li>videos</li>
+        <li>fans</li>
+        <li>news</li>
+        <li>shop</li>
+      </ul>
+    </nav>
   </div>
 </template>
 
 <style>
+  .root{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+  }
+
+img{
+  width: 60px;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  list-style: none;
+  margin: 10px;
+}
+
+li:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+li:hover::after{
+  content:'';
+  width: 100%;
+  display: block;
+  height: 4px;
+  background-color: blue;
+}
 
 </style>
