@@ -10,7 +10,6 @@ export default {
     headerVue,
     mainVue,
     footerVue,
-    cardVue
   }
 }
 </script>
@@ -18,7 +17,6 @@ export default {
 <template>
   <div class="">
     <headerVue />
-    <cardVue/>
     <mainVue />
     <footerVue />
   </div>

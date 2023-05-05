@@ -11,12 +11,32 @@ export default {
 </script>
 
 <template>
-  <div class="root-2">
+  <div class="">
+    <div class="img"></div>
 
+
+    <div class="root-2">
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+    </div>
+    
   </div>
 </template>
 
 <style scoped>
+
+.img{
+  background-size: cover;
+  height: 40vh;
+  background-image: url(../assets/img/jumbotron.jpg);
+}
 .root-2{
   display: flex;
   justify-content: center;

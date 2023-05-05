@@ -4,33 +4,15 @@ export default {
   name:'Card',
   props:{
     thumb: String,
-    price: String,
     series: String,
-    type: String
-  }
+  },
 }
 </script>
 <template>
 
-      <div
-        class="card al-item-cent">
-        <img :src="thumb ">
-        <span>{{ name }}</span>
-        class="card al-item-cent">
-        <img :src="thumb ">
-        <span>{{ name }}</span>
-        class="card al-item-cent">
-        <img :src=" thumb">
-        <span>{{ name }}</span>
-        class="card al-item-cent">
-        <img :src=" thumb">
-        <span>{{ name }}</span>
-        class="card al-item-cent">
+      <div class="card">
         <img :src="thumb">
-        <span>{{ name }}</span>
-        class="card al-item-cent">
-        <img :src="thumb ">
-        <span>{{ name }}</span>
+        <span>{{ series }}</span>
       </div>
 
 
