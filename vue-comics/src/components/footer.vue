@@ -145,4 +145,9 @@ ul.seconda li{
   margin: 5px;
 }
 
+.sing-up ul li:first-child{
+  color: #11518D;
+}
+
+
 </style>

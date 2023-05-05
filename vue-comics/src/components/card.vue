@@ -9,12 +9,11 @@ export default {
 }
 </script>
 <template>
-    <div class="container">
+
       <div class="card">
         <img :src="thumb">
         <span>{{ series }}</span>
       </div>
-    </div>
 
 </template>
 
@@ -25,14 +24,20 @@ export default {
 }
 
 .card{
-  background-color: rgba(0, 255, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#1C1C1C;
   float: left;
   width: calc(100% / 6);
   margin-top: 2.5rem;
   padding: 0 10px;
+  border: 0px;
 img{
-  width: 100%;
-  aspect-ratio: 2 / 3;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
   margin-bottom: .4rem;
   }
 }

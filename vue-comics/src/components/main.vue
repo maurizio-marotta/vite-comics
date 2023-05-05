@@ -17,13 +17,11 @@ console.log(seriesJson);
 </script>
 
 <template>
-  <div class="container">
     <div class="img"></div>
     <div class="root-2">
-      <card v-for="serie in series" :series="serie.series" :thumb="serie.thumb" />
+      <card v-for="(serie, index) in series" :series="serie.series" :thumb="serie.thumb" :key="index" />
     </div>
     
-  </div>
 </template>
 
 <style scoped>
@@ -33,6 +31,7 @@ console.log(seriesJson);
   background-image: url(../assets/img/jumbotron.jpg);
 }
 .root-2{
+  padding: 0px 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

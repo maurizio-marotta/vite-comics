@@ -15,11 +15,9 @@ export default {
 </script>
 
 <template>
-  <div class="">
     <headerVue />
     <mainVue />
     <footerVue />
-  </div>
 </template>
 
 <style lang="scss">
