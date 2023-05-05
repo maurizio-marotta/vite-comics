@@ -51,7 +51,7 @@ export default {
       </div>
   </div>
   <div class="sing-up d-flex">
-    <div class="log">sing-up now</div>
+    <div class="log">sing-up now!</div>
     <ul>
       <li>Follow use</li>
       <li><img src="../assets/img/footer-facebook.png" alt=""></li>
@@ -130,6 +130,7 @@ ul.seconda li{
 }
 
 .log{
+  color: white;
   border: 1px solid #0282F9;
   padding: 10px;
 }

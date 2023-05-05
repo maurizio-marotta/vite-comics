@@ -1,13 +1,18 @@
 
 <script>
+import card from './card.vue';
 export default {
-  name: 'main'
+  name: 'main', 
+  components: {
+    card
+  }
 }
+
 </script>
 
 <template>
   <div class="root-2">
-    <h1> &rarr;content goes here&larr; </h1>
+
   </div>
 </template>
 
