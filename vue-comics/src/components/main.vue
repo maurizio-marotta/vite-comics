@@ -17,7 +17,7 @@ console.log(seriesJson);
 </script>
 
 <template>
-  <div class="">
+  <div class="container">
     <div class="img"></div>
     <div class="root-2">
       <card v-for="serie in series" :series="serie.series" :thumb="serie.thumb" />
@@ -27,7 +27,6 @@ console.log(seriesJson);
 </template>
 
 <style scoped>
-
 .img{
   background-size: cover;
   height: 40vh;
@@ -35,13 +34,17 @@ console.log(seriesJson);
 }
 .root-2{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100px;
   background-color: #1C1C1C;
 }
-h1{
+span{
   color: white;
 }
+
+
+
+
 </style>
