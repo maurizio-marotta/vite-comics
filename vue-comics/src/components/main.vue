@@ -1,30 +1,26 @@
 
 <script>
+import seriesJson from '../data/dc-comics.json'
 import card from './card.vue';
 export default {
   name: 'main', 
   components: {
     card
+  },
+  data(){
+    return{
+      series: seriesJson
+    }
   }
 }
-
+console.log(seriesJson);
 </script>
 
 <template>
   <div class="">
     <div class="img"></div>
-
-
     <div class="root-2">
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
+      <card v-for="serie in series" :series="serie.series" :thumb="serie.thumb" />
     </div>
     
   </div>
